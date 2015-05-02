@@ -1,0 +1,45 @@
+p {
+	color:#777;	
+}
+strong {
+	color: red;
+}
+body {
+	color: blue;
+}
+#blue-p {
+	color: blue;
+}
+#blue-p strong {
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+.big-font {
+	font-size: 1.75em;
+}
+h1 {
+	padding: 10px;
+	border: 2px solid #333;
+}
+a {
+	width: 50px;
+	padding: 20px;
+}
+label,
+input,
+textarea {
+	display: block;
+}
+input,
+textarea {
+	margin-bottom: 20px;
+	box-sizing: border-box;
+	width: 100%;
+}
+@media (min-width: 768px) {
+	input,
+	textarea {
+		width: 700px;
+		padding: 10px;
+	}
+}
