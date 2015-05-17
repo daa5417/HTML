@@ -1,0 +1,19 @@
+h1 {
+	background-color:violet;
+	color:purple;
+}
+a:link {
+	color:#800040;
+	text-decoration: none;
+}
+a:visited {
+	color:#400080;
+}
+a:hover {
+	color:#804040;
+	text-decoration:underline;
+	font-weight:bold;
+}
+#twitter {
+	color:#00aced;
+}

@@ -1,0 +1,22 @@
+.wrapDat {
+	width:100%;
+}
+input,
+label,
+textarea {
+	display:block;
+	width:100%;
+}
+
+@media (min-width: 520px) {
+.wrapDat {
+		max-width: 400px;
+		margin: auto;
+	}
+}
+
+@media (min-width: 768px) {
+.wrapDat {
+		max-width: 700px;
+	}
+}
